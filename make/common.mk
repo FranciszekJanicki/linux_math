@@ -1,0 +1,12 @@
+SUDO ?= sudo
+BUILD_TYPE ?= Debug
+CMAKE_FLAGS ?= -DCMAKE_BUILD_TYPE=$(BUILD_TYPE)
+
+PROJECT_DIR := $(shell pwd)
+MAIN_DIR := $(PROJECT_DIR)/main
+BUILD_DIR := $(PROJECT_DIR)/build
+SCRIPTS_DIR := $(PROJECT_DIR)/scripts
+COMPONENTS_DIR := $(PROJECT_DIR)/components
+SUBMODULES_DIR := $(PROJECT_DIR)/submodules
+REQUIREMENTS_DIR := $(PROJECT_DIR)/requirements
+

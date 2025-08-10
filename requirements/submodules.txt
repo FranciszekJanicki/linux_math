@@ -1,0 +1,2 @@
+git@github.com:FranciszekJanicki/linalg.git submodules/linalg
+git@github.com:FranciszekJanicki/utility.git submodules/utility

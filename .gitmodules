@@ -1,0 +1,6 @@
+[submodule "submodules/linalg"]
+	path = submodules/linalg
+	url = git@github.com:FranciszekJanicki/linalg.git
+[submodule "submodules/utility"]
+	path = submodules/utility
+	url = git@github.com:FranciszekJanicki/utility.git

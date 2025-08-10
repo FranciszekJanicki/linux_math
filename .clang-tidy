@@ -1,0 +1,10 @@
+Checks: >
+  clang-analyzer-*,
+  modernize-*,
+  performance-*,
+  portability-*,
+  bugprone-*,
+
+WarningsAsErrors: ''
+HeaderFilterRegex: '(main|components)/.*'
+FormatStyle: file
