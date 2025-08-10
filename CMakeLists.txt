@@ -8,3 +8,6 @@ project(${CMAKE_PROJECT_NAME} LANGUAGES C CXX ASM)
 add_subdirectory(${MAIN_DIR})
 add_subdirectories(${COMPONENTS_DIR})
 add_subdirectories(${SUBMODULES_DIR})
+
+message(STATUS "Project name: ${CMAKE_PROJECT_NAME}")
+message(STATUS "Build type: ${CMAKE_BUILD_TYPE}")

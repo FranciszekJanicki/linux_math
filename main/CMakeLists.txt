@@ -7,6 +7,7 @@ target_sources(main PRIVATE
 target_link_libraries(main PRIVATE
     linalg
     utility
+    m
 )
 
 target_compile_options(main PUBLIC
